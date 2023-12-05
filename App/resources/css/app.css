@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "GothicA1-ExtraBold";
+    src: local("GothicA1-ExtraBold"),
+        url(../fonts/GothicA1-ExtraBold.ttf) format("truetype");
+}
