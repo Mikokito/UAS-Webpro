@@ -22,7 +22,7 @@ class FullCalenderController extends Controller
                        ->get(['id', 'title', 'start', 'end']);
              return response()->json($data);
         }
-        return view('dashboard.fullcalender');
+        return view('fullcalender');
     }
 
     /**
