@@ -1,4 +1,4 @@
-@extends('layout.headfoot')
+@extends('layouts.headfoot')
 
 @section('content')
 
