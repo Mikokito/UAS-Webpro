@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>GBI NLC</title>
     @vite(['resources/css/app.css','resources/js/app.js', 'resources/css/headfoot.css'])
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <main>
@@ -90,9 +90,9 @@
                       }
                     </style>
                   
-                  <div class="flex flex-col my-10 lg:flex-row lg:mx-24 lg:my-20 ">
-                      <h1 class="text-center text-6xl font-bold w-full lg:mx-10 lg:my-8" data-aos="fade-right" data-aos-duration="2000">FAMILY</h1>
-                      <p class="text-justify my-8 mx-8 lg:mx-12" data-aos="fade-left" data-aos-duration="2000">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis ante pharetra, 
+                  <div class="flex flex-col my-10 lg:flex-row lg:mx-24 lg:my-20 overflow-x-hidden">
+                      <h1 class="text-center text-6xl font-bold w-full lg:mx-10 lg:my-8" data-aos="fade-right" data-aos-duration="1500">FAMILY</h1>
+                      <p class="text-justify my-8 mx-8 lg:mx-12" data-aos="fade-left" data-aos-duration="1500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis ante pharetra, 
                       pretium neque sed, gravida dui. Ut convallis est ac ligula blandit, sit amet vestibulum metus 
                       laoreet. Quisque molestie elementum nulla, in lobortis lectus vestibulum at. Aliquam quis 
                       augue id purus volutpat scelerisque. Donec non dui sed tellus rhoncus molestie. Donec sapien 
@@ -135,8 +135,8 @@
                     </style>
                   
                   <div class="flex flex-col my-10 lg:flex-row lg:mx-24 lg:my-20 ">
-                      <h1 class="text-center text-6xl font-bold w-full lg:mx-10 lg:my-8" data-aos="fade-right" data-aos-duration="2000">SENIOR</h1>
-                      <p class="text-justify my-8 mx-8 lg:mx-12" data-aos="fade-left" data-aos-duration="2000">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis ante pharetra, 
+                      <h1 class="text-center text-6xl font-bold w-full lg:mx-10 lg:my-8" data-aos="fade-right" data-aos-duration="1500">SENIOR</h1>
+                      <p class="text-justify my-8 mx-8 lg:mx-12" data-aos="fade-right" data-aos-duration="1500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis ante pharetra, 
                       pretium neque sed, gravida dui. Ut convallis est ac ligula blandit, sit amet vestibulum metus 
                       laoreet. Quisque molestie elementum nulla, in lobortis lectus vestibulum at. Aliquam quis 
                       augue id purus volutpat scelerisque. Donec non dui sed tellus rhoncus molestie. Donec sapien 
@@ -179,8 +179,8 @@
                     </style>
                   
                   <div class="flex flex-col my-10 lg:flex-row lg:mx-24 lg:my-20 ">
-                      <h1 class="text-center text-6xl font-bold w-full lg:mx-10 lg:my-8" data-aos="fade-right" data-aos-duration="2000">ARMY</h1>
-                      <p class="text-justify my-8 mx-8 lg:mx-12" data-aos="fade-left" data-aos-duration="2000">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis ante pharetra, 
+                      <h1 class="text-center text-6xl font-bold w-full lg:mx-10 lg:my-8" data-aos="fade-right" data-aos-duration="1500">ARMY</h1>
+                      <p class="text-justify my-8 mx-8 lg:mx-12" data-aos="fade-right" data-aos-duration="1500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis ante pharetra, 
                       pretium neque sed, gravida dui. Ut convallis est ac ligula blandit, sit amet vestibulum metus 
                       laoreet. Quisque molestie elementum nulla, in lobortis lectus vestibulum at. Aliquam quis 
                       augue id purus volutpat scelerisque. Donec non dui sed tellus rhoncus molestie. Donec sapien 
@@ -223,8 +223,8 @@
                     </style>
                   
                   <div class="flex flex-col my-10 lg:flex-row lg:mx-24 lg:my-20 ">
-                      <h1 class="text-center text-6xl font-bold w-full lg:mx-10 lg:my-8" data-aos="fade-right" data-aos-duration="2000">KIDS</h1>
-                      <p class="text-justify my-8 mx-8 lg:mx-12" data-aos="fade-left" data-aos-duration="2000">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis ante pharetra, 
+                      <h1 class="text-center text-6xl font-bold w-full lg:mx-10 lg:my-8" data-aos="fade-right" data-aos-duration="1500">KIDS</h1>
+                      <p class="text-justify my-8 mx-8 lg:mx-12" data-aos="fade-right" data-aos-duration="1500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis ante pharetra, 
                       pretium neque sed, gravida dui. Ut convallis est ac ligula blandit, sit amet vestibulum metus 
                       laoreet. Quisque molestie elementum nulla, in lobortis lectus vestibulum at. Aliquam quis 
                       augue id purus volutpat scelerisque. Donec non dui sed tellus rhoncus molestie. Donec sapien 
@@ -240,9 +240,9 @@
 
         <div class="flex flex-col bg-[#313131] text-white h-36">
           <br><br>
-          <h1 class="text-center text-2xl font-semibold my-5"data-aos="zoom-out" data-aos-duration="1500">INGIN BERGABUNG?</h1>
+          <h1 class="text-center text-2xl font-semibold my-5" data-aos="zoom-in" data-aos-duration="1500">INGIN BERGABUNG?</h1>
           <div class="flex justify-center">
-              <button onclick="redirectTombol()" class="transition ease-in-out delay-150 bg-biru hover:-translate-y-1 hover:scale-110 hover:bg-biru-hover duration-300 text-white font-bold py-2 px-4 rounded-full" data-aos="zoom-out" data-aos-duration="1500">
+              <button onclick="redirectTombol()" class="transition ease-in-out delay-150 bg-biru hover:-translate-y-1 hover:scale-110 hover:bg-biru-hover duration-300 text-white font-bold py-2 px-4 rounded-full" data-aos="zoom-in" data-aos-duration="1500">
                   Daftar Sekarang!
               </button>
           </div>
