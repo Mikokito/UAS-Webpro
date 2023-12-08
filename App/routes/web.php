@@ -57,4 +57,4 @@ Route::resource('/dashboard/media', MediaController::class)->middleware('auth');
 Route::controller(FullCalenderController::class)->group(function(){
     Route::get('dashboard/fullcalender', 'index');
     Route::post('dashboard/fullcalenderAjax', 'ajax');
-});
+})->middleware('auth');
