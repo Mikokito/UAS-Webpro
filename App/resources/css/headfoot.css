@@ -1,23 +1,10 @@
-/* HEADER */
 .mobileMenu {
-    display: none;
+  display: none;
 }
 
 #header {
-    height: 72px;
+  height: 72px;
 }
-
-
-/*
-dibawah ini css dapet dari gms
-*/
-
-/* #footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    right: 0;
-} */
 
 .footer {
     background-color: #000;
@@ -1369,10 +1356,6 @@ html {
 
 .flex-row {
     flex-direction: row
-}
-
-.flex-col {
-    flex-direction: column
 }
 
 .flex-wrap {
