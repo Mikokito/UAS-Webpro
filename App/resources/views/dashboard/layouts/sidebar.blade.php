@@ -37,12 +37,18 @@
       </h6>
       <ul class="nav flex-column mb-auto">
         <li class="nav-item">
-          <a class="nav-link d-flex align-items-center gap-2" href="#">
+          <a onclick="redirectTombol()" class="nav-link d-flex align-items-center gap-2">
             <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
             Form Pendaftaran
           </a>
         </li>
       </ul>
+
+      <script>
+        function redirectTombol() {
+            window.open('https://forms.gle/K8vcV1mRubVzJrCZ9', '_blank');
+        }
+      </script>
 
       <hr class="my-3">
     </div>

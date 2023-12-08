@@ -246,11 +246,11 @@
                   Daftar Sekarang!
               </button>
           </div>
-      </div>
+        </div>
   
       <script>
           function redirectTombol() {
-              window.location.href = 'https://forms.gle/K8vcV1mRubVzJrCZ9';
+            window.open('https://forms.gle/K8vcV1mRubVzJrCZ9', '_blank');
           }
       </script>
 
