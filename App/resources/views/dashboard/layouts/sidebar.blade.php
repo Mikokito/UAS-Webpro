@@ -25,7 +25,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link d-flex align-items-center gap-2" href="/dashboard/fullcalender">
+            <a class="nav-link d-flex align-items-center gap-2" href="/fullcalender">
               <svg class="bi"><use xlink:href="#file-earmark"/></svg>
               Calendar
             </a>
