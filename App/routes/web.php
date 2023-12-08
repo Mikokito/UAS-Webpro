@@ -54,7 +54,7 @@ Route::get('/register', [RegisterController::class, 'index']);
 Route::post('/register', [RegisterController::class, 'store']);
 Route::resource('/dashboard/posts', PostController::class)->middleware('auth'); 
 Route::resource('/dashboard/media', MediaController::class)->middleware('auth');
-Route::controller(FullCalenderController::class)->group(function(){
-    Route::get('dashboard/fullcalender', 'index');
-    Route::post('dashboard/fullcalenderAjax', 'ajax');
-})->middleware('auth');
+Route::middleware(['auth'])->group(function () {
+    Route::get('fullcalender', [FullCalenderController::class, 'index']);
+    Route::post('fullcalenderAjax', [FullCalenderController::class, 'ajax']);
+});
