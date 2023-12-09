@@ -92,7 +92,8 @@
                   
                   <div class="flex flex-col my-10 lg:flex-row lg:mx-24 lg:my-20 overflow-x-hidden">
                       <h1 class="text-center text-6xl font-bold w-full lg:mx-10 lg:my-8" data-aos="fade-right" data-aos-duration="1500">FAMILY</h1>
-                      <p class="text-justify my-8 mx-8 lg:mx-12" data-aos="fade-left" data-aos-duration="1500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis ante pharetra, 
+                      <p class="text-justify my-8 mx-8 lg:mx-12" data-aos="fade-left" data-aos-duration="1500">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis ante pharetra, 
                       pretium neque sed, gravida dui. Ut convallis est ac ligula blandit, sit amet vestibulum metus 
                       laoreet. Quisque molestie elementum nulla, in lobortis lectus vestibulum at. Aliquam quis 
                       augue id purus volutpat scelerisque. Donec non dui sed tellus rhoncus molestie. Donec sapien 
