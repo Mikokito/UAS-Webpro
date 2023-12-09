@@ -175,15 +175,7 @@
                                     </ul>
                                 </div>
                                 <div>
-                                    <h3 class="text-sm font-semibold uppercase leading-6 text-light">Shop</h3>
-                                    <ul role="list" class="mt-6 list-outside list-none space-y-4 pl-0">
-                                        <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Haiya</a></li>
-                                        <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Ulala</a></li>
-                                        <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Bjir</a></li>
-                                        <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Kura</a></li>
-                                        <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Kura</a></li>
-                                        <!-- Add shop links here -->
-                                    </ul>
+                                    <h3 class="text-sm leading-6 text-light">Alamat: Ruko Kemang Pratama Jl. Kemang Pratama Raya Blok AN No. 20-23, RT.004/RW.001, Bojong Rawalumbu, Rawa Lumbu, Bekasi, West Java 17116</h3>
                                 </div>
                                 <!-- Download App Section -->
                             </div>
