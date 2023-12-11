@@ -103,16 +103,18 @@
             <h2 id="footer-heading" class="sr-only">Footer</h2>
             <div class="container mx-auto px-4 tablet:px-6 desktop:px-8 ">
                 <div class="py-16">
-                    <div class="desktop:grid desktop:grid-cols-7 desktop:gap-8">
-                        <div class="space-y-8">
+                    <div class="mt-16 grid grid-cols-2 gap-8 desktop:col-span-6 desktop:mt-0 desktop:grid-cols-6">
+                        <div class="space-y-8 col-span-2">
                             <a href="/id">
                                 <span class="sr-only">logo</span>
                                 <picture>
                                     <img class="h-6 w-auto desktop:h-10" src="/#" alt="logo">
                                 </picture>
                             </a>
+                            <h3 class="text-sm font-semibold uppercase leading-6 text-light">Alamat</h3>
+                            <h3 class="text-sm leading-6 text-link mt-0" style="margin-top: 15px !important;">
+                                Ruko Alicante Blok A55, Jl. Jendral Gatot Subroto C10 Gading Serpong, Medang, Pagedangan, Tangerang Regency, Banten 15334</h3>
                         </div>
-                        <div class="mt-16 grid grid-cols-2 gap-8 desktop:col-span-6 desktop:mt-0 desktop:grid-cols-6">
                             <!-- Churches Section -->
                             <div>
                                 <h3 class="text-sm font-semibold uppercase leading-6 text-light">Churches</h3>
@@ -148,38 +150,19 @@
                                 </ul>
                             </div>
                             <!-- Mission -->
-                            <div class="flex flex-col">
-                                <div>
-                                    <h3 class="text-sm font-semibold uppercase leading-6 text-light">Mission</h3>
-                                    <ul role="list" class="mt-6 list-outside list-none space-y-4 pl-0">
-                                        <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Haiya</a></li>
-                                        <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Ulala</a></li>
-                                        <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Bjir</a></li>
-                                        <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Kura</a></li>
-                                        <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Kura</a></li>
-                                        <!-- Add mission links here -->
-                                    </ul>
-                                </div>
+                            <div>
+                                <h3 class="text-sm font-semibold uppercase leading-6 text-light">Mission</h3>
+                                <ul role="list" class="mt-6 list-outside list-none space-y-4 pl-0">
+                                    <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Haiya</a></li>
+                                    <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Ulala</a></li>
+                                    <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Bjir</a></li>
+                                    <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Kura</a></li>
+                                    <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Kura</a></li>
+                                    <!-- Add mission links here -->
+                                </ul>
                             </div>
                             <!-- Media and Shop Section -->
-                            <div class="col-span-2 grid grid-cols-2 gap-8">
-                                <div>
-                                    <h3 class="text-sm font-semibold uppercase leading-6 text-light">Media</h3>
-                                    <ul role="list" class="mt-6 list-outside list-none space-y-4 pl-0">
-                                        <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Haiya</a></li>
-                                        <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Ulala</a></li>
-                                        <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Bjir</a></li>
-                                        <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Kura</a></li>
-                                        <li><a href="/#" class="text-sm leading-6 text-link hover:text-light">Kura</a></li>
-                                        <!-- Add media links here -->
-                                    </ul>
-                                </div>
-                                <div>
-                                    <h3 class="text-sm leading-6 text-light">Alamat: Ruko Kemang Pratama Jl. Kemang Pratama Raya Blok AN No. 20-23, RT.004/RW.001, Bojong Rawalumbu, Rawa Lumbu, Bekasi, West Java 17116</h3>
-                                </div>
-                                <!-- Download App Section -->
-                            </div>
-                        </div>
+                            <!-- Download App Section -->
                     </div>
                 </div>
             </div>
