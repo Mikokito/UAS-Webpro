@@ -6,9 +6,13 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\LoginController;
-use App\Http\Controllers\MediaController;
+use App\Http\Controllers\MediasController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\FullCalenderController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\MediaController;
+use App\Http\Controllers\GiveController;
 
 /*
 |--------------------------------------------------------------------------
@@ -41,6 +45,20 @@ Route::get('/events', function() {
     ]);
 });
 
+// Route::get("/home", 'index')->name('home.index');
+
+Route::controller(HomeController::class)->group(function(){
+    Route::get("/home", 'index')->name('home.index');
+});
+
+Route::get('/media.php', function () {
+    return view('welcome');
+});
+
+Route::get('/media', [MediaController::class, 'showMediaPage']);
+
+Route::post('/save-link', 'YTLinkController@saveLink');
+
 // Route::get('/dashboard/media', function() {
 //     return view('dashboard.media.index', [
 //         "title" => "Media"
@@ -53,7 +71,8 @@ Route::post('/logout', [LoginController::class, 'logout']);
 Route::get('/register', [RegisterController::class, 'index']);
 Route::post('/register', [RegisterController::class, 'store']);
 Route::resource('/dashboard/posts', PostController::class)->middleware('auth'); 
-Route::resource('/dashboard/media', MediaController::class)->middleware('auth');
+Route::resource('/dashboard/medias', MediasController::class)->middleware('auth');
+Route::resource('/dashboard/give', GiveController::class)->middleware('auth');
 Route::middleware(['auth'])->group(function () {
     Route::get('fullcalender', [FullCalenderController::class, 'index']);
     Route::post('fullcalenderAjax', [FullCalenderController::class, 'ajax']);
