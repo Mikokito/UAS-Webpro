@@ -17,6 +17,6 @@ class MediaController extends Controller
         '0B-rjMLqYhc',
         ];
 
-        return view('/media/index')->with('videoIds', $videoIds);
+        return view('/media')->with('videoIds', $videoIds);
     }
 }

@@ -1,5 +1,5 @@
 <div id="facebook-content">
-                <section class="flex items-center justify-center bg-brand px-12 py-16 tablet:px-24 tablet:py-24 desktop:py-32">
+                <section style="background-color: #023047;" class="flex items-center justify-center bg-brand px-12 py-16 tablet:px-24 tablet:py-24 desktop:py-32">
                     <img src="{{ asset('images/YT-GBI.png') }}" class="w-1/2 tablet:w-5/12" alt="fb-banner">
                     <div class="ml-5">
                         <h1 class="text-xl font-extrabold uppercase text-white tablet:mb-2 tablet:text-4xl desktop:text-6xl">FOLLOW TO</h1>
