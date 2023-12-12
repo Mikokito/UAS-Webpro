@@ -47,8 +47,8 @@ Route::get('/events', function() {
 
 // Route::get("/home", 'index')->name('home.index');
 
-Route::controller(HomeController::class)->group(function(){
-    Route::get("/home", 'index')->name('home.index');
+Route::controller(MediaController::class)->group(function () {
+    Route::get('/media', 'showMediaPage')->name('media.show');
 });
 
 Route::get('/media.php', function () {
