@@ -17,28 +17,29 @@
                 <section class="bg-cover bg-center px-12 py-16 tablet:px-24 tablet:py-24 desktop:py-32" style="background-image: url('{{ asset('images/servo.webp') }}');">
                     <div class="container mx-auto px-4 tablet:px-6 desktop:px-8 ">
                         <div class="flex w-full flex-wrap justify-between">
-                            <div class="my-5 w-full tablet:w-[48%] desktop:w-[30%]">
+                            <div class="my-5 w-full tablet:w-[48%] desktop:w-[30%]" style="background-color: #ffffff; width: 400px; height: 560px;">
                                 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0z6JG4bf2vwiUSqVJwfsd3dsWzUh5GzCu4YVr7nUu9NNiRDrxmYP8nAZPHGL2nnAKl%26id%3D100076716421749&show_text=true&width=500" width="400" height="641" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                                 </a>
                             </div>
-                            <div class="my-5 w-full tablet:w-[48%] desktop:w-[30%]">
+                            <div class="my-5 w-full tablet:w-[48%] desktop:w-[30%]" style="background-color: #ffffff; width: 400px; height: 515px;">
                                 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0H59zEF7gZWYFjvf33Pjwce6ktpEe1oCPjMQQ3CTDhPCe4zByApt5B3M2PvCUdYB6l%26id%3D100076716421749&show_text=true&width=500" width="400" height="641" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                                 </a>
                             </div>
-                            <div class="my-5 w-full tablet:w-[48%] desktop:w-[30%]">
-                                <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F996656538418477%2F&show_text=true&width=267&t=0" width="267" height="591" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                            <div class="my-5 w-full tablet:w-[48%] desktop:w-[30%]" style="background-color: #ffffff; width: 400px; height: 590px;">
+                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0vKLDYFQuYscuKsjUduWzhPcrf9ooGm3b9b3wabPDBtT4AU3PRZWvzjGmWcr4Xbe2l%26id%3D100076716421749&show_text=true&width=500" width="400" height="641" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                                 </a>
                             </div>
+                    
                             <div class="my-5 w-full tablet:w-[48%] desktop:w-[30%]">
                                 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0ijoHEoudAY8Jci1nEtVciZQ23yahFdz9FWCRPWvVJspD3AH426HSZKqaNQipHbrrl%26id%3D100076716421749&show_text=true&width=500" width="400" height="641" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                                 </a>
                             </div>
-                            <div class="my-5 w-full tablet:w-[48%] desktop:w-[30%]">
-                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02F7U3G3Y8hG5AQ49rxooPVM6jo1KMPKXKNuAuc2CWcnUD2vn65uskWYQLALi3tzJtl%26id%3D100076716421749&show_text=true&width=500" width="400" height="641" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                                </a>
+                            <div class="my-5 w-full tablet:w-[48%] desktop:w-[30%]" style="background-color: #ffffff; width: 400px; height: 560px;">
+                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02F7U3G3Y8hG5AQ49rxooPVM6jo1KMPKXKNuAuc2CWcnUD2vn65uskWYQLALi3tzJtl%26id%3D100076716421749&show_text=true&width=500" width="400" height="641" style="border: none; overflow: hidden;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                             </div>
-                            <div class="my-5 w-full tablet:w-[48%] desktop:w-[30%]">
-                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0vKLDYFQuYscuKsjUduWzhPcrf9ooGm3b9b3wabPDBtT4AU3PRZWvzjGmWcr4Xbe2l%26id%3D100076716421749&show_text=true&width=500" width="400" height="641" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+                            <div class="my-5 w-full tablet:w-[48%] desktop:w-[30%]" style="background-color: #ffffff; width: 400px; height: 610px;">
+                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02mUGNa1XTCJ6mbEqgQiX5EXez5oVbbLn4MhdyybGEe2LbqCDDjBMzbh3GtY4Qz2uXl%26id%3D100076716421749&show_text=true&width=500" width="400" height="601" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                                 </a>
                             </div>
                         </div>
