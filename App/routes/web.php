@@ -77,3 +77,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('fullcalender', [FullCalenderController::class, 'index']);
     Route::post('fullcalenderAjax', [FullCalenderController::class, 'ajax']);
 });
+
+Route::get('/ministries', function () {
+    return view('ministries');
+});
