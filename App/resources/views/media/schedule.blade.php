@@ -5,7 +5,7 @@
                             GBI NLC Channel Schedule
                         </h1>
                     </div>
-                    <img src="https://gms.church/images/media/tv/tv-schedule.webp" class="w-full" alt="tv-schedule" loading="lazy">
+                    <img src="{{ asset('images/schedule.png') }}" class="w-full" alt="tv-schedule">
                 </section>
             </div>
 
