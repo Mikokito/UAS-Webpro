@@ -3,122 +3,71 @@
 @section('content')
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>GBI NLC</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-    <!-- Custom CSS -->
-    <link href="../../css/home.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    @vite(['resources/css/app.css','resources/js/app.js', 'resources/css/headfoot.css'])
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body id="page-top" class="index" data-pinterest-extension-installed="cr1.3.4">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">GBI NLC</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden active">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="#home">Home</a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="#portfolio">Media</a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="#about">Give</a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="#team">Mission</a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="#contact">Ministries</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
     <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-            <div class="intro-lead-in">GBI NLC Gading Serpong</div>
-                <div class="intro-heading">Welcome Home</div>
-                <!-- <a href="#services" class="page-scroll btn btn-xl">Aku Bukan Sempit</a> -->
+    <div x-data="{}">
+        <section class="relative py-64 bg-[url('../../../App/public/images/GerejaHome.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=3')] bg-top bg-cover">
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/70"></div>
+            <div class="container mx-auto relative">
+            <div class="text-center">
+                <h4 class="font-bold text-white text-3xl">GBI NLC Gading Serpong</h4>
+                <h1 class="font-bold text-white lg:leading-normal leading-normal text-6xl lg:text-7xl mb-6">Welcome Home</h1>
+                <p class="text-white/70 text-xl max-w-2xl mx-auto">"GBI NEW LIFE COMMUNITY adalah Gereja yang berpusat pada Injil. Kami menyebutnya sebagai bengkel kehidupan, hal ini menegaskan bahwa gereja 
+ada untuk orang2 berdosa yg hidupnya mengalami kelahiran bam sehingga mereka dimampukan untuk terus berubah dan berbuah bagi kemuliaanNya."</p>
             </div>
+            </div><!--end container-->
+        </section>
+    </div>
+
+    <section class="bg-white dark:bg-gray-900">
+        <div class="py-10 mx-auto max-w-2xl lg:py-16">
+            <dl class="flex items-center space-x-6">
+                <div>
+                    <dt class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Visi</dt>
+                    <dd class="mb-4 font-bold text-gray-500 sm:mb-5 dark:text-gray-400">Membawa Setiap Orang Mengalami Kelahiran Baru lewat kuasa Injil dan Bertumbuh Dewasa
+Menjadi Seperti Kristus</dd>
+                </div>
+                <div>
+                    <dt class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Misi</dt>
+                    <dd class="mb-4 font-bold text-gray-500 sm:mb-5 dark:text-gray-400">Menjangkau - Memuridkan - Memperlengkapi - Mengutus</dd>
+                </div>
+                <div>
+                    <dt class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Value</dt>
+                    <dd class="mb-4 font-bold text-gray-500 sm:mb-5 dark:text-gray-400">Relationship, Sinergy, Diversity, Excellence, Servant, Leadership, Innovation, Generosity</dd>
+                </div>
+            </dl>
         </div>
-    </header>
+    </section>
 
     <!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
+    <section class="bg-gray-700 dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <div class="max-w-screen-md mb-8 lg:mb-16">
+                <h2 class="mt-4 mb-4 text-4xl tracking-tight font-extrabold text-white dark:text-white">Services</h2>
+                <p class="text-gray-400 sm:text-xl dark:text-gray-400">Ibadah kategorial :</p>
             </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="glyphicon glyphicon-tree-conifer"></i>
-                    </span>
-                    <h4 class="service-heading">Here is a pokok</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+                <div>
+                    <h3 class="mb-2 text-xl font-bold text-white dark:text-white">New Life Youth</h3>
+                    <p class="text-gray-400 dark:text-gray-400">Setiap hari Sabtu, Jam: 6 pm.</p>
                 </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="glyphicon glyphicon-heart"></i>
-                    </span>
-                    <h4 class="service-heading">Here's a heart</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                <div>
+                    <h3 class="mb-2 text-xl font-bold text-white dark:text-white">New Life Teens</h3>
+                    <p class="text-gray-400 dark:text-gray-400">Setiap hari Minggu, Jam: 12.30 pm.</p>
                 </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="glyphicon glyphicon-tint"></i>
-                    </span>
-                    <h4 class="service-heading">Waterfall maybe?</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                <div>
+                    <h3 class="mb-2 text-xl font-bold text-white dark:text-white">New Life Kids</h3>
+                    <p class="text-gray-400 dark:text-gray-400">Setiap hari Minggu, Jam: 10 am & 5pm.</p>
                 </div>
             </div>
         </div>
