@@ -8,11 +8,5 @@
                     <img src="{{ asset('images/schedule.png') }}" class="w-full" alt="tv-schedule">
                 </section>
             </div>
-
-
             <div class="h-3 bg-brand"></div>
-        </div>
-        </div>
-        </div>
-        </main>
-    </div>
+</div>
