@@ -29,6 +29,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Route::get("/home", 'index')->name('home.index');
+
+Route::controller(HomeController::class)->group(function(){
+    Route::get("/home", 'index')->name('home.index');
+});
+
 Route::controller(ServiceController::class)->group(function(){
     Route::get("/service", 'index')->name('service.index');
 });
@@ -43,12 +49,6 @@ Route::get('/events', function() {
     return view('events', [
         "title" => "Events"
     ]);
-});
-
-// Route::get("/home", 'index')->name('home.index');
-
-Route::controller(HomeController::class)->group(function(){
-    Route::get("/home", 'index')->name('home.index');
 });
 
 Route::get('/media.php', function () {
