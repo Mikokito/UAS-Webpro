@@ -1,4 +1,4 @@
-<div id="header">
+<div id="header" style="position: fixed;z-index: 99999;">
     <header style="background-color:rgb(29 28 28)">
         <div class="contain">
             <nav class="centered" aria-label="Global">
@@ -11,19 +11,19 @@
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: currentColor;">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
                         </svg>
-                    </button>
+                    </button>   
                     </div>
                 </div>
                 <div class="hidden flex-desktop">
-                    <a href="/#" class="text-a">Home</a>
-                    <a href="/#" class="text-a">Services</a>
-                    <a href="/#" class="text-a">Media</a>
-                    <a href="/#" class="text-a">Ministries</a>
+                    <a href="{{ route('home')}}" class="text-a">Home</a>
+                    <a href="{{ route('service')}}" class="text-a">Services</a>
+                    <a href="{{ route('media')}}" class="text-a">Media</a>
+                    <a href="{{--{{ route('ministries')}}--}}" class="text-a">Ministries</a>
                 </div>
             </nav>
         </div>
     </header>
-    <div class="mobileMenu">
+    <div class="mobileMenu" style="display: none;position: fixed;z-index: 99999;">
         <div class="full-menu">
             <div class="upper">
                 <a href="/#">
@@ -38,10 +38,10 @@
             <div class="contain">
                 <div class="contain-inside">
                     <div class="contain-content">
-                        <a href="/#" class="pages">Home</a>
-                        <a href="/#" class="pages">Services</a>
-                        <a href="/#" class="pages">Media</a>
-                        <a href="/#" class="pages">Ministries</a>
+                        <a href="{{ route('home')}}" class="pages">Home</a>
+                        <a href="{{ route('service')}}" class="pages">Services</a>
+                        <a href="{{ route('media')}}" class="pages">Media</a>
+                        <a href="{{--{{ route('ministries')}}--}}" class="pages">Ministries</a>
                     </div>
                 </div>
             </div>

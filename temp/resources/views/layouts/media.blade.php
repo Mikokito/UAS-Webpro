@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Media</title>
-    @vite([ 'resources/css/header.css', 'resources/css/footer.css'])
+    @vite(['resources/css/mediaPage.css', 'resources/css/header.css', 'resources/css/footer.css'])
 </head>
 <body>
     @include('includes.header')
