@@ -5,6 +5,19 @@ header footer css sendiri,
 layout change?,
 media controller web.php simplified
 
+#2
+no admin
+
+simplify controller
+
+#belum coba pake image
+
+app.css ga konek ke tailwind, yg pake app.css tailwind wasalam
+home jadi burik,
+service dropdown aneh, daftar sekarang button birunya ilang, aos tu apa bjir, 
+media dropdownnya w ilangin karena ngajak ribut pas benerin header, sekalian benerin biar bisa dropdownnya
+MINISTRIES DIMANA BJIR
+
 /*
 Color palette: 
 #8ECAE6
