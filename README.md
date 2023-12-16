@@ -13,9 +13,9 @@ simplify controller
 #belum coba pake image
 
 app.css ga konek ke tailwind, yg pake app.css tailwind wasalam
-home jadi burik,
-service dropdown aneh, daftar sekarang button birunya ilang, aos tu apa bjir, 
-media dropdownnya w ilangin karena ngajak ribut pas benerin header, sekalian benerin biar bisa dropdownnya
+HOME jadi burik,
+SERVICE dropdown aneh, daftar sekarang button birunya ilang, aos tu apa bjir, 
+MEDIA dropdownnya w ilangin karena ngajak ribut pas benerin header, sekalian benerin biar bisa dropdownnya
 MINISTRIES DIMANA BJIR
 
 /*
