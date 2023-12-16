@@ -1,8 +1,11 @@
 # UAS-Webpro
-Buat gabungin semua file dalam bentuk laravel
 
-Yang udh jadi, langsung taro aja, terserah mau langsung commit atau bikin branch baru
+#1
+header footer css sendiri,
+layout change?,
+media controller web.php simplified
 
+/*
 Color palette: 
 #8ECAE6
 #219EBC
