@@ -18,6 +18,12 @@ SERVICE dropdown aneh, daftar sekarang button birunya ilang, aos tu apa bjir,
 MEDIA dropdownnya w ilangin karena ngajak ribut pas benerin header, sekalian benerin biar bisa dropdownnya
 MINISTRIES DIMANA BJIR
 
+#3
+tinggal admin
+app.css dah bisa,
+HOME ilangin about kebawah, our events masih rusak,
+MINISTRIES pas scroll kebawah ada teks apaan tau muncul, gabisa liat footer
+
 /*
 Color palette: 
 #8ECAE6
