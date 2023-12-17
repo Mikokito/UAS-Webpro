@@ -18,7 +18,7 @@
                     <a href="{{ route('home')}}" class="text-a">Home</a>
                     <a href="{{ route('service')}}" class="text-a">Services</a>
                     <a href="{{ route('media')}}" class="text-a">Media</a>
-                    <a href="{{--{{ route('ministries')}}--}}" class="text-a">Ministries</a>
+                    <a href="{{ route('ministries')}}" class="text-a">Ministries</a>
                 </div>
             </nav>
         </div>

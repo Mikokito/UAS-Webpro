@@ -15,3 +15,6 @@ Route::get('/home', 'App\Http\Controllers\HomeController@showHomePage')->name('h
 
 /* Service Routes */
 Route::get('/service', 'App\Http\Controllers\ServiceController@showServicePage')->name('service');
+
+/* Ministries Routes */
+Route::get('/ministries', 'App\Http\Controllers\MinistriesController@showMinistriesPage')->name('ministries');
