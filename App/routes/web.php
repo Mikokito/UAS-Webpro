@@ -18,7 +18,7 @@ use App\Http\Controllers\InstagramController;
 use App\Http\Controllers\YoutubeController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/home');
 });
 
 /* Media Routes */
