@@ -6,7 +6,7 @@
                     <div class="col-left">
                         <a href="/#">
                             <picture>
-                                <img class="logo" src="/#" alt="logo">
+                                <img class="logo" src="{{ asset('images/logo.png') }}" alt="logo">
                             </picture>
                         </a>
                         <h3 class="title">Alamat</h3>
@@ -39,19 +39,14 @@
                             <h3 class="title">Ministries</h3>
                             <ul role="list" class="content-hold">
                                 <li><a href="{{ route('ministries') }}" class="content">Test</a></li>
-                                <li><a href="{{ route('ministries') }}" class="content">Test</a></li>
-                                <li><a href="{{ route('ministries') }}" class="content">Test</a></li>
-                                <li><a href="{{ route('ministries') }}" class="content">Test</a></li>
                             </ul>
                         </div>
-                        <!-- TEST -->
+                        <!-- Give -->
                         <div class="col-rest">
                             <h3 class="title">Give</h3>
                             <ul role="list" class="content-hold">
-                                <li><a href="{{ route('give') }}" class="content">Test</a></li>
-                                <li><a href="{{ route('give') }}" class="content">Test</a></li>
-                                <li><a href="{{ route('give') }}" class="content">Test</a></li>
-                                <li><a href="{{ route('give') }}" class="content">Test</a></li>
+                                <li><a href="{{ route('give') }}" class="content">Persepuluhan</a></li>
+                                <li><a href="{{ route('give') }}" class="content">Pembangunan</a></li>
                             </ul>
                         </div>
                 </div>
