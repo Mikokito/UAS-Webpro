@@ -2,7 +2,7 @@
 
 @section('content')
 <div x-data="{}">
-    <section class="relative py-64 bg-[url('../../../public/images/GerejaHome.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=3')] bg-top bg-cover">
+    <section class="relative py-64 bg-top bg-cover" style="background-image: url({{asset('images/GerejaHome.jpg')}});">
         <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/70"></div>
         <div class="container mx-auto relative">
         <div class="text-center text-white">
