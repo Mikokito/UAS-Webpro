@@ -38,22 +38,20 @@
                         <div class="col-rest">
                             <h3 class="title">Ministries</h3>
                             <ul role="list" class="content-hold">
-                                <li><a href="/#" class="content">Test</a></li>
-                                <li><a href="/#" class="content">Test</a></li>
-                                <li><a href="/#" class="content">Test</a></li>
-                                <li><a href="/#" class="content">Test</a></li>
-                                <li><a href="/#" class="content">Test</a></li>
+                                <li><a href="{{ route('ministries') }}" class="content">Test</a></li>
+                                <li><a href="{{ route('ministries') }}" class="content">Test</a></li>
+                                <li><a href="{{ route('ministries') }}" class="content">Test</a></li>
+                                <li><a href="{{ route('ministries') }}" class="content">Test</a></li>
                             </ul>
                         </div>
                         <!-- TEST -->
                         <div class="col-rest">
-                            <h3 class="title">Test</h3>
+                            <h3 class="title">Give</h3>
                             <ul role="list" class="content-hold">
-                                <li><a href="/#" class="content">Test</a></li>
-                                <li><a href="/#" class="content">Test</a></li>
-                                <li><a href="/#" class="content">Test</a></li>
-                                <li><a href="/#" class="content">Test</a></li>
-                                <li><a href="/#" class="content">Test</a></li>
+                                <li><a href="{{ route('give') }}" class="content">Test</a></li>
+                                <li><a href="{{ route('give') }}" class="content">Test</a></li>
+                                <li><a href="{{ route('give') }}" class="content">Test</a></li>
+                                <li><a href="{{ route('give') }}" class="content">Test</a></li>
                             </ul>
                         </div>
                 </div>
@@ -83,7 +81,7 @@
                         </a>
                     </div>
                     <div>
-                        <span class="text">© 2023 []. All rights reserved.</span>
+                        <span class="text">© 2023 GBI NLC. All rights reserved.</span>
                     </div>
                 </div>
             </div>
