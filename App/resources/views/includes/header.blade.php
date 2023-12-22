@@ -41,8 +41,9 @@
                     <div class="contain-content">
                         <a href="{{ route('home')}}" class="pages">Home</a>
                         <a href="{{ route('service')}}" class="pages">Services</a>
-                        <a href="/media" class="pages">Media</a>
-                        <a href="{{--{{ route('ministries')}}--}}" class="pages">Ministries</a>
+                        <a href="{{ route('media')}}" class="pages">Media</a>
+                        <a href="{{ route('ministries')}}" class="pages">Ministries</a>
+                        <a href="{{ route('give')}}" class="pages">Give</a>
                     </div>
                 </div>
             </div>

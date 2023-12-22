@@ -18,9 +18,9 @@
                         <div class="col-rest">
                             <h3 class="title">Services</h3>
                             <ul role="list" class="content-hold">
-                                <li><a href="{{ route('service') }}" class="content">Family</a></li>
-                                <li><a href="{{ route('service') }}" class="content">Senior</a></li>
-                                <li><a href="{{ route('service') }}" class="content">Army</a></li>
+                                <li><a href="{{ route('service') }}" class="content">Ibadah Raya</a></li>
+                                <li><a href="{{ route('service') }}" class="content">Youths</a></li>
+                                <li><a href="{{ route('service') }}" class="content">Teens</a></li>
                                 <li><a href="{{ route('service') }}" class="content">Kids</a></li>
                             </ul>
                         </div>
@@ -38,20 +38,15 @@
                         <div class="col-rest">
                             <h3 class="title">Ministries</h3>
                             <ul role="list" class="content-hold">
-                                <li><a href="{{ route('ministries') }}" class="content">Test</a></li>
-                                <li><a href="{{ route('ministries') }}" class="content">Test</a></li>
-                                <li><a href="{{ route('ministries') }}" class="content">Test</a></li>
-                                <li><a href="{{ route('ministries') }}" class="content">Test</a></li>
+                                <li><a href="{{ route('ministries') }}" class="content">Pelayanan</a></li>
                             </ul>
                         </div>
                         <!-- TEST -->
                         <div class="col-rest">
                             <h3 class="title">Give</h3>
                             <ul role="list" class="content-hold">
-                                <li><a href="{{ route('give') }}" class="content">Test</a></li>
-                                <li><a href="{{ route('give') }}" class="content">Test</a></li>
-                                <li><a href="{{ route('give') }}" class="content">Test</a></li>
-                                <li><a href="{{ route('give') }}" class="content">Test</a></li>
+                                <li><a href="{{ route('give') }}" class="content">Persepuluhan</a></li>
+                                <li><a href="{{ route('give') }}" class="content">Pembangunan</a></li>
                             </ul>
                         </div>
                 </div>
