@@ -3,14 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Ministry;
 
 class MinistriesController extends Controller
 {
-    public function index()
+    public function showMinistriesPage()
     {
-        $ministries = Ministry::all();
-
-        return view('/ministries', compact('ministries'));
+        return view('pages.ministries');
     }
 }

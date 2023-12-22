@@ -9,6 +9,10 @@ use Illuminate\Support\Str;
 
 class GiveController extends Controller
 {
+    public function showGivePage() {
+        return view('pages.give');
+    }
+    
     /**
      * Display a listing of the resource.
      */

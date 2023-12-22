@@ -1,19 +1,17 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./resources/**/*.blade.php",
-    "./resources/**/*.js",
-    "./resources/**/*.vue",
-    "./node_modules/flowbite/**/*.js"
-  ],
-  theme: {
-    colors: {
-        'biru': '#219EBC',
-        'biru-hover': '#8ECAE6',
-    }
+module.exports = {
+  purge: {
+    content: [
+      "./resources/views/**/*.blade.php",
+      "./resources/**/*.js",
+      "./resources/**/*.vue",
+      "./node_modules/flowbite/**/*.js"
+    ],
   },
-  plugins: [
-    require('flowbite/plugin')
-  ],
+  theme: {
+    extend: {
+      '72px': '72px',
+    },
+  },
+  plugins: [],
 }
-

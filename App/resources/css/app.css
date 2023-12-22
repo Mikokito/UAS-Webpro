@@ -1,9 +1,17 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-@font-face {
-    font-family: "GothicA1-ExtraBold";
-    src: local("GothicA1-ExtraBold"),
-        url(../fonts/GothicA1-ExtraBold.ttf) format("truetype");
+body {
+    margin: 0;
+}
+
+html {
+    line-height: 1.5;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0 solid #fff;
 }
