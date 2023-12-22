@@ -18,20 +18,20 @@
                         <div class="col-rest">
                             <h3 class="title">Services</h3>
                             <ul role="list" class="content-hold">
-                                <li><a href="/#" class="content">Family</a></li>
-                                <li><a href="/#" class="content">Senior</a></li>
-                                <li><a href="/#" class="content">Army</a></li>
-                                <li><a href="/#" class="content">Kids</a></li>
+                                <li><a href="{{ route('service') }}" class="content">Family</a></li>
+                                <li><a href="{{ route('service') }}" class="content">Senior</a></li>
+                                <li><a href="{{ route('service') }}" class="content">Army</a></li>
+                                <li><a href="{{ route('service') }}" class="content">Kids</a></li>
                             </ul>
                         </div>
                         <!-- Media -->
                         <div class="col-rest">
                             <h3 class="title">Media</h3>
                             <ul role="list" class="content-hold">
-                                <li><a href="/#" class="content">Youtube</a></li>
-                                <li><a href="/#" class="content">Instagram</a></li>
-                                <li><a href="/#" class="content">Facebook</a></li>
-                                <li><a href="/#" class="content">Schedule</a></li>
+                                <li><a href="{{ route('media') }}" class="content">Youtube</a></li>
+                                <li><a href="{{ route('media') }}" class="content">Instagram</a></li>
+                                <li><a href="{{ route('media') }}" class="content">Facebook</a></li>
+                                <li><a href="{{ route('media') }}" class="content">Schedule</a></li>
                             </ul>
                         </div>
                         <!-- Ministries -->
@@ -79,13 +79,6 @@
                             <span class="sr-only">Youtube</span>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 124" fill="currentColor" aria-hidden="true">
                                 <path fill-rule="evenodd" d="M172.32,19.36A22.12,22.12,0,0,0,156.76,3.7C143,0,88,0,88,0S33,0,19.24,3.7A22.12,22.12,0,0,0,3.68,19.36C0,33.18,0,62,0,62s0,28.82,3.68,42.64A22.12,22.12,0,0,0,19.24,120.3C33,124,88,124,88,124s55,0,68.76-3.7a22.12,22.12,0,0,0,15.56-15.66C176,90.82,176,62,176,62S176,33.18,172.32,19.36ZM70,88.17V35.83L116,62Z" clip-rule="evenodd"></path>
-                            </svg>
-                        </a>
-                        <a href="mailto:#" target="_blank" rel="noreferrer">
-                            <span class="sr-only">Email</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                                <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"></path>
-                                <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"></path>
                             </svg>
                         </a>
                     </div>
