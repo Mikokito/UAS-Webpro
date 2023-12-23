@@ -9,3 +9,7 @@ Color palette:
 #023047
 #FFB703
 #FB8500
+
+Admin
+User: andre
+Pass: 12345
